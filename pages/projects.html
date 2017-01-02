@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/fadein.css">
+  <link rel="stylesheet" type="text/css" href="../css/projects.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
+
+
+<body>
+
+  <div class="nav-bar">
+    <ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="../documents/YashV_Resume.pdf" target="_blank">Resume</a></li>
+      <li><a href="../pages/projects.html">Projects</a></li>
+      <li style="float:left">
+        <a href="../index.html">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="header-image">
+    <!--figure this part out-->
+  </div>
+  <div class="box fade-in one">
+    <div class="prof-box">
+      <h1 style="margin-top:20px">My Projects</h1>
+      <div class="project" style="margin-top:-10px">
+        <script>
+        $(function() {
+            $( "#button1" ).click(function() {
+              $( "#project1" ).toggle();
+            });
+          });
+        </script>
+        <a id="button1" href="#"><h3>RaspberryPi Echo</h3></a>
+          <div id="project1" style="display:none">
+            <p class="paragraph-box">The RaspberryPiEcho was a side project of mine that I worked on
+              during my winter break of 2016. Following the
+              <a href="http://www.instructables.com/id/Build-a-Raspberry-Pi-Powered-Amazon-Echo/" target="_blank">
+                Instructable</a> created by Toglefritz I was able to turn my RaspberryPi into a fully
+               functional Amazon Alexa device.
+               In the future I hope to add new skills and abilites to my Alexa, and
+               create new skills for others to use as well.
+              </body>
+            </p>
+          </div>
+      </div>
+      <div class="project" style="margin-top:-10px">
+        <script>
+        $(function() {
+            $( "#button2" ).click(function() {
+              $( "#project2" ).toggle();
+            });
+          });
+        </script>
+        <a id="button2"href="#">
+          <h3>This Website</h3></a>
+          <div id="project2" style="display:none">
+            <p class="paragraph-box">Something
+            </p>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>

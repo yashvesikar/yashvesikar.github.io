@@ -1,0 +1,73 @@
+html {
+  background: url(../images/drone2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 4;
+  font-size: 40;
+}
+
+.nav-bar{
+    }.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.4);
+  }
+
+  .nav-bar li {
+    float: right;
+  }
+
+  .nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  /* Change the link color to #111 (black) on hover */
+  .nav-bar li a:hover {
+      background-color: #111;
+  }
+}
+
+ /*FOR SOME REASON THIS GETS RID OF THE GRAY BOX
+SEE WHICH IS MORE APPEALING TO AN AUDIENCE
+.header-image {
+  height: 200px;
+  width: auto;
+  background: rgba(123, 123, 123, 0.5);
+}*/
+.prof-box {
+  width: auto;
+  height: auto;
+  background: rgba(0,0,0,.4);
+  padding: 30px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.project{
+  padding: 10px;
+  font-weight: 200;
+  letter-spacing: 2;
+}
+
+.paragraph-box{
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  color: white;
+  float: right;
+  margin-left: 40%;
+}
