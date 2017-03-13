@@ -1,5 +1,6 @@
 html {
-  background: url(../images/yosemite2.jpg) no-repeat center center fixed;
+  /*background: url(../images/yosemite2.jpg) no-repeat center center fixed;*/
+  background:black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,22 +40,42 @@ h1 {
   padding: 40px;
   color: white;
   margin: 0 auto;
-  margin-top: 100px;
+  /*margin-top: 30px;*/
   text-align: center;
 }
 
+.prof-box:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.square {
+  border: 5px solid red;
+  position: relative;
+  text-align: center;
+  width: 50vw;
+  height: 50vw;
+}
+
+.content {
+  font-size: 2em;
+  padding-top: 20%;
+}
+
 .prof-pic {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  border-radius: 45%;
+  height: 180px;
+  width: 180px;
 }
 
 .icon-links {
   font-size: 15px;
+  padding: 10px;
 }
 
 .icon-links a {
   color: white;
+  padding: 5px;
 }
 
 .line-break {
@@ -64,8 +85,15 @@ h1 {
 
 }
 
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
-.nav-bar ul {
+/*.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -86,6 +114,6 @@ h1 {
 
 }
 /* Change the link color to #111 (black) on hover */
-.nav-bar li a:hover {
+/*.nav-bar li a:hover {
     background-color: #111;
-}
+}*/
