@@ -1,6 +1,5 @@
 html {
-  /*background: url(../images/yosemite2.jpg) no-repeat center center fixed;*/
-  background:black;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
