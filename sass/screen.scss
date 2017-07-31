@@ -9,7 +9,7 @@ $break-small: 320px; //iphone 5
 $break-large: 1200px;
 
 body {
-    background-color: #252422; //252422de
+    // background-color: #252422; //252422de
     display: flex;
     font-family: 'Lekton', sans-serif;
     // font-family: 'Titillium Web', sans-serif;
@@ -32,7 +32,7 @@ body {
 
 .name {
     @media screen and (min-width: $break-small) {
-        color: #fff;
+        // color: #fff;
         font-size: 4.5em;
         margin: 0 auto;
         margin-left: 20%;
@@ -41,7 +41,7 @@ body {
         // padding-right: 4%;
     }
     @media screen and (min-width: $break-large) {
-        color: #fff;
+        // color: #fff;
         font-size: 8.5em;
         margin: 0 auto;
         padding-bottom: 11%;
@@ -66,13 +66,13 @@ body {
 
 .info {
     @media screen and (min-width: $break-small) {
-        color: #fff;
+        // color: #fff;
         font-size: 1.2em;
         padding-bottom: 3%;
         text-align: center;
     }
     @media screen and (min-width: $break-large) {
-        color: #fff;
+        // color: #fff;
         font-size: 1.9em;
         padding-bottom: 3%;
         text-align: center;
@@ -102,7 +102,19 @@ body {
     }
 
     a {
-        color: #fff;
+        // color: #fff;
+        color: black;
         padding: 10px;
     }
+}
+
+.footer {
+  // background-color: #efefef;
+  bottom: 0;
+  // color: #fff;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  text-align: center;
 }
