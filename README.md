@@ -1,5 +1,5 @@
 # yashvesikar.github.io
-##This project is a personal website
+## This project is a personal website
 
 I plan to work on this website whenever I have some free time.
 I hope to rewrite it as a responsive ReactJS application sometime in the future.
